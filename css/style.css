@@ -64,10 +64,9 @@ nav{
 }
 .text-box a{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 30px;
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
 }
 .text-box a::after{
     content: '';
