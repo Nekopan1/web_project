@@ -9,19 +9,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
 <body>
     <section class="header">
         <nav>
             <a href="index.html"><img class="LogoResize" src="img/logo.JPG"></a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="https://nekopan1.github.io/web_project/index.html">HOME</a></li>
-                    <li><a href="https://nekopan1.github.io/web_project/hentaihmv.html">MANGA</a></li>
-                    <li><a href="https://nekopan1.github.io/web_project/hentaigames.html">HENTAI GAME'S</a></li>
-                    <li><a href="https://nekopan1.github.io/web_project/crackedpcgames.html">CRACKED PC GAME'S</a></li>
-                </ul>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="https://nekopan1.github.io/web_project/index.html">HOME</a></li>
+                        <li><a href="https://nekopan1.github.io/web_project/hentaihmv.html">MANGA</a></li>
+                        <li><a href="https://nekopan1.github.io/web_project/hentaigames.html">HENTAI GAME'S</a></li>
+                        <li><a href="https://nekopan1.github.io/web_project/crackedpcgames.html">CRACKED PC GAME'S</a></li>
+                    </ul>
             </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
         </nav>
 <div class="text-box">
     <h1>Cracked pc game's</h1>
@@ -30,6 +33,15 @@
 </div>
 
     </section>
-
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+    
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
