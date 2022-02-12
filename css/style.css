@@ -67,6 +67,7 @@ nav{
     font-size: 14px;
     color: #fff;
     text-decoration: none;
+    font-size: 14px;
 }
 .text-box a::after{
     content: '';
