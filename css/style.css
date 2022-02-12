@@ -62,7 +62,7 @@ nav{
 .text-box h1{
     font: size 62px;
 }
-.text-box button{
+.button{
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -73,7 +73,7 @@ nav{
     position: relative;
     cursor: pointer;
 }
-.text-box button:hover{
+.button:hover{
     border: 1px solid darkblue;
     background: darkblue;
     transition: 0.5s;
